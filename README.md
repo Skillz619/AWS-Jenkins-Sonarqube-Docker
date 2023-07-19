@@ -1,4 +1,4 @@
-# AWS-Jenkins-CI-CD-Pipeline-
+# AWS-Jenkins-Pipeline-SonarQube-Docker-Deployment
 ![JEnkins Cicd Pipeline](https://github.com/Skillz619/AWS-Jenkins-CI-CD-Pipeline-/assets/43133388/dc71830e-2a2f-41e2-94db-962f4c98d2da)
 
 AWS Create 3 EC2 instances
