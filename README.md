@@ -22,6 +22,9 @@ SSH this cmd to get access to the Jenkins server(Use the instance public Ip as p
 
 ssh -i SSH-Key-Jenkins.pem ubuntu@34.224.39.140
 
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/a01625e3-f8fe-4eb1-a809-6b425fc81e08)
+
+
 sudo apt update
 
 sudo apt install openjdk-11-jre
@@ -68,4 +71,30 @@ Also latest build log updated
 
 We have automated the process till the Jenkins whenever we change or add the code in github repository it will trigger the jenkins automatically and Jenkins will pull automatically from the github
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# SonarQube Setup
+
+Log into the ssh for the SonarQube Instance
+
+SSH this cmd to get access to the SonarQube server(Use the instance public Ip as per intance generated) - PublicIP - 3.84.220.33
+
+ssh -i SSH-Key-Jenkins.pem ubuntu@54.221.137.114
+
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/7a0186c1-98f9-4b9b-914f-742191f67d17)
+
+sudo apt update
+
+sudo apt install openjdk-17-jre
+
+Download SonarQube using wget method and paste the download link
+
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-10.1.0.73491.zip
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/1e6b131b-2030-4532-aa95-4151384433fe)
+
+
+sudo apt install unzip
+
+unzip sonarqube-10.1.0.73491.zip
+
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/2f050cbe-c7e9-469d-84f0-4badcc812a06)
