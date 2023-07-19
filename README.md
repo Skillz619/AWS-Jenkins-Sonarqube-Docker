@@ -160,3 +160,22 @@ Under the build steps chose the remote shell build step - and add a text file ju
 Now build the pipeline and verify if the text file is created in the docker server
 ![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/45feebea-f6cc-4099-afd5-211246056c83)
 
+Create a dockerfile with Nginx image and store in repository also create a folder in docker 
+
+Add a build step execute shell - copy the contents to a location created in docker folder (scp ./* ubuntu@54.81.5.217:~/website/)
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/e800cd73-ba47-48be-b5ed-869e8dccc2a8)
+
+Make sure the docker is given permissions to run the cmds
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/e0cdf990-e180-4ed6-a0d2-6f38370c155e)
+
+Now in Jenkins in the build step add the remote shell content
+
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/7e9067ed-77fe-4361-b23e-6abd1867a779)
+
+Check the container working
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/311cbde3-d27d-4b6a-b5e4-dc2b2bcc99a0)
+
+Configure the ports 8085 and website is deployed with docker container - http://54.81.5.217:8085/
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/ea1048d3-ba1a-4d05-81ca-41f506cafa04)
+
+
