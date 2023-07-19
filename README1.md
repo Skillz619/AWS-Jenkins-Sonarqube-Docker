@@ -54,6 +54,9 @@ Add the Git repo URL in the Configuration
 Also select GITScm to automatically triger the pipeline whenver we make changes in the repository
 ![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/3f383fe5-877f-4fa7-9be6-a6c418c77df0)
 
+Add the Github Webhook in the github rep settings - Add the Jenkins url ip and port (http://34.224.39.140:8080/) and select ind events - pull reqs and pushes
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/2c49a21c-a4cd-499e-9404-3cfe28d7cd4f)
+
 
 
 
