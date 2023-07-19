@@ -39,7 +39,7 @@ Now expose the port 8080 on jenkins ec2 instance -> Go to Security and edit inbo
 Copy the admin token
 ![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/185eebce-e2d3-4b67-8730-9b02671552df)
 
-Now open the public ip with port - http://3.89.254.125:9000/ - and enter the token copied
+Now open the public ip with port - http://52.23.182.224:8080/ - and enter the token copied
 ![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/6e37e326-4a02-4669-b366-ff8b77db84f6)
 
 Install the suggested plugins
