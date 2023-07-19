@@ -48,6 +48,11 @@ Create a User
 Create a Pipeline
 ![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/b911aad7-7bc0-4b82-85e3-b8834e5ccba4)
 
+Add the Git repo URL in the Configuration
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/a9df0413-c788-4468-abfc-d7b1f4f96ff2)
+
+Also select GITScm to automatically triger the pipeline whenver we make changes in the repository
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/3f383fe5-877f-4fa7-9be6-a6c418c77df0)
 
 
 
