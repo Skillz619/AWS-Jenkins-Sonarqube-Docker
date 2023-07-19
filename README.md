@@ -57,8 +57,12 @@ Also select GITScm to automatically triger the pipeline whenver we make changes 
 Add the Github Webhook in the github rep settings - Add the Jenkins url ip and port (http://34.224.39.140:8080/) and select ind events - pull reqs and pushes
 ![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/2c49a21c-a4cd-499e-9404-3cfe28d7cd4f)
 
-You can check if the build is succesful and webhook is working by adding a test file or making changes
-![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/525c83d4-2948-45ad-b96e-53a78037e1ce)
+File updated in workspace
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/63fc74d6-a66b-4fc9-8179-fc5e44ee3e81)
+
+Also latest build log updated
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/fc716e33-a846-4bb3-8d84-a90bcb6c257d)
+
 
 # Part 1 Summary 
 
