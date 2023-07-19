@@ -98,3 +98,39 @@ sudo apt install unzip
 unzip sonarqube-10.1.0.73491.zip
 
 ![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/2f050cbe-c7e9-469d-84f0-4badcc812a06)
+
+Open the sonarqube instance with its public ip and its port- Use admin and admin for username and pass
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/b53a2b39-9f9d-41af-8791-7dc22c716fa3)
+
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/1ca928ee-dcf3-4fed-83da-4c3b0a8e865c)
+
+Create a project
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/746c8b2f-1617-47fd-bbfa-bdd8271d9f77)
+
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/8f78eea9-4604-46cc-b415-6b0873d81027)
+
+Create a global token
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/3591ddb4-4cf7-4f2b-9c5e-3ca9d140af07)
+
+Go to Jenkins manage Plugins and install SonarQube Scanner and SSH2 Easy plugin
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/cae44fc2-c8df-4349-9d76-82c34b52f183)
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/3ecc1fdf-ac41-4048-8675-c8d88f26608a)
+
+Now in the configure tools add the SonarQube Scanner 
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/2633dbc6-e2f6-4968-8205-4e33c6a682c1)
+
+Go to configure systems and add the sonarqube server and paste the sonarqube url - http://54.221.137.114:9000/
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/6ca18173-3faf-4e03-b07f-143973ce9c0d)
+
+Configure the project key in the sonarqube build steps
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/d28352a1-6be5-4da2-9255-b6b013168abd)
+
+Add the token in the secret text dropdown under secret
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/b55bce17-e0dd-475c-9a5d-4e1a9af2006a)
+
+Then select the created token
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/97732f54-021c-4c51-8f63-19cf49015a12)
+
+
+
+
