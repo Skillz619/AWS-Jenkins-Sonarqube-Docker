@@ -18,6 +18,8 @@ Create an EC2 Instance for Docker and use the same key pair generated
 
 ![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/2a53c25b-0add-4e94-acdb-3d033ec1eaba)
 
+# Part 1 - Jenkins - Github Setup
+
 SSH this cmd to get access to the Jenkins server(Use the instance public Ip as per intance generated)
 
 ssh -i SSH-Key-Jenkins.pem ubuntu@3.87.244.207
@@ -73,7 +75,7 @@ We have automated the process till the Jenkins whenever we change or add the cod
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# SonarQube Setup
+# Part 2 - SonarQube Setup
 
 Log into the ssh for the SonarQube Instance
 
@@ -130,6 +132,19 @@ Add the token in the secret text dropdown under secret
 
 Then select the created token
 ![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/97732f54-021c-4c51-8f63-19cf49015a12)
+
+Build and check the sonarqube report
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/1e720273-03d0-4131-b274-aae9170c16f9)
+
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/45bd2c03-8fae-4fbe-9ac0-ef6fd244c5d5)
+
+It is passed 
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/f71a06fe-eff2-4eb9-bc93-2a90849c86d1)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Part 3  - Deploy on Docker
+
 
 
 
