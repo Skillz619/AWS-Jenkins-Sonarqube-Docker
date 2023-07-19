@@ -145,7 +145,18 @@ It is passed
 
 # Part 3  - Deploy on Docker
 
+Log into the docker ec2 instance
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/b832ad70-a547-486e-b223-34f89a3a3f75)
 
+Install the docker from documention and add the credentials created and add the Docker group in jenkins
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/fcb56fc7-701b-4634-a150-9c0379e90432)
 
+Add the docker Server in jenkins
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/243c09be-8f0d-4c41-88d3-b7fd3a458a31)
 
+Under the build steps chose the remote shell build step - and add a text file just to verify
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/42046e96-2b31-46cb-8990-bd81457f42ce)
+
+Now build the pipeline and verify if the text file is created in the docker server
+![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/45feebea-f6cc-4099-afd5-211246056c83)
 
