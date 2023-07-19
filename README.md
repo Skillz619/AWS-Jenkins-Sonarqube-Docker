@@ -20,7 +20,7 @@ Create an EC2 Instance for Docker and use the same key pair generated
 
 SSH this cmd to get access to the Jenkins server(Use the instance public Ip as per intance generated)
 
-ssh -i SSH-Key-Jenkins.pem ubuntu@34.224.39.140
+ssh -i SSH-Key-Jenkins.pem ubuntu@3.87.244.207
 
 ![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/a01625e3-f8fe-4eb1-a809-6b425fc81e08)
 
