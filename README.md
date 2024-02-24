@@ -29,9 +29,30 @@ ssh -i SSH-Key-Jenkins.pem ubuntu@52.23.182.224
 
 sudo apt update
 
+Then follow jenkins installation for Debian Ubuntu
+
 sudo apt install openjdk-11-jre
 
-Then follow jenkins installation for Debian Ubuntu
+curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
+  /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+
+echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
+
+sudo apt-get update -y 
+
+sudo apt-get install jenkins -y
+
+
+sudo systemctl enable jenkins
+
+sudo systemctl start jenkins
+
+sudo systemctl status jenkins
+
+
+
 
 Now expose the port 8080 on jenkins ec2 instance -> Go to Security and edit inbound rules
 ![image](https://github.com/Skillz619/AWS-Jenkins-Sonarqube-Docker/assets/43133388/b1758794-97d3-45f7-b40d-61936d7cd02a)
